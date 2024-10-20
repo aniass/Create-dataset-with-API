@@ -14,7 +14,7 @@ def get_data(url):
 
 
 def save_json(data):
-    ''' Save to a json file'''
+    '''Save to a json file'''
     file = open('makeup_data.json', encoding='utf-8', mode='w')
     json.dump(data, file)
     file.close()
